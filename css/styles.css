@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+body {
+    background-image: url('../images/backgroundimg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    margin: 75px 0 0 0;
+}
+
+.city-name {
+    width: 400px;
+    opacity: 0.7;
+}
+
+.city-data {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+
+.city-data h1, h2, h3, h4, h5 {
+    margin: 15px;
+}
+
+.status , .status-icon {
+    font-size: 27px;
+}
+
+.temp , .max-temp {
+    font-size: 27px;
+}
+
+.wind-speed {
+   padding-bottom: 10px;
+}
