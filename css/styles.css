@@ -48,3 +48,7 @@ body {
 .wind-speed {
    padding-bottom: 10px;
 }
+
+.test {
+    display: flex;
+}
