@@ -62,3 +62,4 @@ const getCityWeather = (event) => {
 }
 
 weatherForm.addEventListener('submit', getCityWeather);
+// file uploaded successfully on github
